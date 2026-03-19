@@ -110,3 +110,6 @@ def setup_logging(
         "------------------------------------------ NEW RUN ------------------------------------------"
     )
     root_logger.info(f"Logging configured. Log file: {log_file}")
+
+
+__all__ = ["setup_logging"]
