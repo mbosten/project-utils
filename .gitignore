@@ -1,0 +1,26 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# venvs
+.venv/
+.venv-*/
+
+# uv
+.uv/
+uv.lock
+uv.lock.bak
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build outputs
+build/
+dist/
+*.egg-info/
