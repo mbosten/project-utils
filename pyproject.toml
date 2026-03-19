@@ -7,7 +7,7 @@ name = "project-utils"
 version = "0.1.0"
 description = "Reusable convenience functions for multiple projects"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = []
 
 [tools.setuptools]
