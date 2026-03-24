@@ -42,6 +42,15 @@ def setup_logging(
         level: Console logging level (default: INFO)
         suppress_loggers: Iterable of logger names to silence (set to WARNING)
         reset_handlers: Whether to remove existing handlers first
+
+    Example:
+        setup_logging(
+            suppress_loggers=[
+                "PIL",
+                "matplotlib.font_manager",
+                "matplotlib.texmanager",
+            ]
+    )
     """
     root_logger = logging.getLogger()
 
